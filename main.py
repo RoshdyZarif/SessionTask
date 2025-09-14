@@ -1,7 +1,3 @@
-def multiply(a, b):
-    return a * b
-
-
 def main():
     print("Simple Calculator")
     print("Choose an operation:")
@@ -22,7 +18,7 @@ def main():
     if choice == "1":
         print(f"{x} + {y} = {add(x, y)}")
     elif choice == "2":
-        print(f"{x} - {y} = {subtract(x, y)}")
+        print(f"{x} - {y} = {sub(x, y)}")
     elif choice == "3":
         print(f"{x} * {y} = {multiply(x, y)}")
     elif choice == "4":
